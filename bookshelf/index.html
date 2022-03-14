@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Our Book shelf</title>
+<!--bootstrap stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- main css stylesheet-->
+    <link rel="stylesheet" href="C:\Users\RJ\Desktop\bookshelf\css/main.css">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+</head>
+<body>
+    
+    <!--Header start-->
+    <header class="header p-3 position-absolute start-0 top-0 end-0">
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="/" class="text-decoration-none text-white fs-5 fw-bold">OurBookShelf</a>
+
+            <div>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                          </svg>
+
+                </button>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+    </header>
+
+    <!--Header End-->
+
+    <!--Flayout Navigation Start-->
+    <nav class="collapse navbar-collapse dropdown-nav" id="navbar">
+
+        <div class="dropdown-nav__container container-xxl d-flex align-items-start align-items-md-center">
+
+            <div class="row align-items-start">
+
+                <div class="col-12 col-sm-4 mt-4">
+                    <a href="#" class="row text-decoration-none">
+                        <div class="col-2 col-sm-12 mb-4">
+                            <img src="C:\Users\RJ\Desktop\bookshelf\img/4book.jpg" alt="Best Book" class="img-fluid" width="553" height="746" loading="lazy">
+
+                        </div>
+                        <div class="col-10">
+                            <h3> Riveting Book</h3>
+                            <p>Find Out More about these Books</p>
+                            <p>See More</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4 mt-4">
+                        <a href="#" class="row text-decoration-none">
+                            <div class="col-2 col-sm-12 mb-4">
+                                <img src="C:\Users\RJ\Desktop\bookshelf\img/book585.jpg" alt="Best Book" class="img-fluid" width="553" height="746" loading="lazy">
+    
+                            </div>
+                            <div class="col-10">
+                                <h3> Motivating</h3>
+                                <p>Find Out More about these Books</p>
+                                <p>See More</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4 mt-4">
+                            <a href="#" class="row text-decoration-none">
+                                <div class="col-2 col-sm-12 mb-4">
+                                    <img src="C:\Users\RJ\Desktop\bookshelf\img/bookquote.jpg" alt="Best Book" class="img-fluid" width="553" height="746" loading="lazy">
+        
+                                </div>
+                                <div class="col-10">
+                                    <h3> Inspiring</h3>
+                                    <p>Find Out More about these Books</p>
+                                    <p>See More</p>
+                                </div>
+                            </a>
+                        </div>
+
+            </div>
+
+
+        <button class="navbar-toggler dropdown-nav__closeNavBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+
+        </button>
+
+
+        </div>
+
+
+    </nav>
+
+    <!--Flayout Navigation End-->
+
+    <!--BookLand Start-->
+
+    <section class="hero">
+
+        <div class="hero__overlay"></div>
+
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" class="hero__video">
+
+            <source src="img/bookv1.mp4" type="video/mp4">
+
+
+        </video>
+
+        <div class="hero__content h-100 container-custom position-relative">
+            <div class="d-flex h-100 align-items-center hero__content-width">
+                <div class="text-white">
+
+                    <h1 class="hero__heading fw-bold mb-4">Discover Your Soul By Reading A Book</h1>
+                    <p class="lead mb-4">The reading of all good books is like a conversation with the finest minds of past centuries.Books are a uniquely portable magic</p>
+                    <a href="#" class="mt-2 btn btn-lg btn-outline-light" role="button">Read Now</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <a href="#scroll-down" class="hero__scroll-btn">
+            Explore <i class="bi bi-arrow-down-short"></i>
+        </a>
+
+    </section>
+
+    <!--hero end-->
+
+
+
+
+    <a id="scroll-down"></a>
+
+    <!--section one start-->
+
+    <section class="steps container-custom">
+
+        <div class="row">
+
+            <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+
+                <img src="img/my.jpg" alt="Mythology" class="img-fluid pb-4 steps__section-thumbnail" width="533" height="746" loading="lazy">
+
+            </div>
+
+            <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+
+                <div class="steps__content-width">
+                    <span>01</span>
+                    <h1 class="h2 mb-4">Mythology Gener</h1>
+                    <p class="mb-4">“Love, however, cannot be forbidden. The more that flame is covered up, the hotter it burns. Also love can always find a way. It was impossible that these two whose hearts were on fire should be kept apart. (Pyramus and Thisbe)”
+                            ― Edith Hamilton, Mythology</p>
+
+                    <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!---Section One End-->
+
+    <!--section one start-->
+
+    <section class="steps steps--background">
+
+        <div class="container-custom">
+
+                <div class="row">
+        
+                    <div class="col-12 col-sm-6 d-md-flex justify-content-md-center order sm-1">
+        
+                        <img src="img/prince.jpg" alt="Mythology" class="img-fluid pb-4 steps__section-thumbnail" width="533" height="746" loading="lazy">
+        
+                    </div>
+        
+                    <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+        
+                        <div class="steps__content-width">
+                            <span>02</span>
+                            <h1 class="h2 mb-4">Fantasy Gener</h1>
+                            <p class="mb-4">“Imagination is more important than knowledge. For knowledge is limited to all we know and understand, while imagination embraces the entire world, and all there ever will be to know and understand.”
+                                    ― Michael Scott, The Warlock</p>
+        
+                            <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+    
+        <!---Section One End-->
+
+        <!--section one start-->
+
+    <section class="steps container-custom">
+
+            <div class="row">
+    
+                <div class="col-12 col-sm-6 d-md-flex justify-content-md-center">
+    
+                    <img src="img/love.jpg" alt="Mythology" class="img-fluid pb-4 steps__section-thumbnail" width="533" height="746" loading="lazy">
+    
+                </div>
+    
+                <div class="col-12 col-sm-6 align-self-center justify-content-md-center">
+    
+                    <div class="steps__content-width">
+                        <span>03</span>
+                        <h1 class="h2 mb-4">Love Gener</h1>
+                        <p class="mb-4">“As I got to know you, I began to realise that beauty was the least of your qualities. I became fascinated by your goodness. I was drawn in by it. I didn’t understand what was happening to me. And it was only when I began to feel actual, physical pain every time you left the room that it finally dawned on me: I was in love, for the first time in my life.”
+
+                                DANGEROUS LIAISONS
+                                
+                                Choderlos de Laclos</p>
+    
+                        <a href="#">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </section>
+    
+        <!---Section One End-->
+
+
+        <!--section with 3 col's -->
+
+        <section class="bg-dark text-white py-4">
+            <div class="custom-container my-4">
+                <div class="row">
+
+                    <div class="col-12 col-sm-4 mb-4">
+                        <img src="img/dream.jpg" class="mb-4 img-fluid" alt="Book Soul" width="441" height="248" loading="lazy">
+                        <h3>Modern Books</h3>
+                        <p>Whether you turn pages, tap a tablet, or listen to audio, a good book can be a perfect relaxation aid, tutor, or source of inspiration. </p>
+                    </div>
+
+                    <div class="col-12 col-sm-4 mb-4">
+                            <img src="img/bookt.jpg" class="mb-4 img-fluid" alt="Psycology Books" width="441" height="248" loading="lazy">
+                            <h3>psycology Books</h3>
+                            <p>Have you ever found yourself trying to work out what mental processes lead humans to do what we do? Thanks to the internet, even in isolation we have a continual stream of information about what people are doing... ?</p>
+                    </div>
+
+                    <div class="col-12 col-sm-4 mb-4">
+                            <img src="img/magic.jpg" class="mb-4 img-fluid" alt="Book Soul" width="441" height="248" loading="lazy">
+                            <h3>Magic Books</h3>
+                            <p>You already KNOW we love us a good story with some complex mythology—maybe some dark magic, and a story that ties everything together to boot. It’s a recipe for a masterpiece.  </p>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--section col End-->
+
+        <!--Footer Start -->
+
+        <footer class="footer bg-dark text-white">
+            <div class="container-custom d-flex justify-content-between align-items-center py-3 border-hightlight">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="me-2 text-muted text-decoration-none">
+                        <i class="bi bi-cup"></i>
+                        <span>&copy; Our Book Shelf</span>
+                    </a>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-white">
+
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+                </ul>
+            </div>
+
+
+
+
+
+
+
+
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+        <!--Footer End -->
+
+
+
+
+
+
+<!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
